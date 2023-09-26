@@ -24,6 +24,6 @@ window.addEventListener('scroll', () => {
 
 
     let zoom3 = 1 + (docWidth * 0.00001 * scrollContentPercent);
-    let horyzontalOffset2 = docWidth / 1500 * scrollParallaxPercent;
+    let horyzontalOffset2 = docWidth / 5000 * scrollParallaxPercent;
     document.querySelector('.parallax__mountain_3').style.transform = `scale(${zoom3}) translate3d(-${horyzontalOffset2}px, 0, 0)`;
 });
